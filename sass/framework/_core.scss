@@ -1,0 +1,172 @@
+$green:         #60BF85;
+$light-green:   #A0D5BA;
+$blue:          #2B4051;
+$light-blue:    #899FBC;
+$gray:          #EEEFF0;
+
+$primary-color: $blue;
+$border-color:  #555555;
+$body-color:    #555555;
+
+* {
+  transition: color ease 0.3s, border-color ease 0.3s;
+}
+
+body {
+  font-family: "source-sans-pro", sans-serif;
+  color: $body-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "museo-sans", sans-serif;
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+  color: $primary-color;
+  font-weight: 500;
+
+  small {
+    color: #999;
+    display: block;
+    font-size: 60%;
+    font-weight: normal;
+    line-height: 1.5rem;
+  }
+}
+
+h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+
+  small {
+    text-transform: none;
+    font-family: "source-sans-pro", sans-serif;
+  }
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  color: $body-color;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: $body-color;
+  border-bottom: 1px solid $border-color;
+
+  &:hover, &:focus {
+    color: #7FABDD;
+    border-color: #7FABDD;
+  }
+}
+
+p {
+  line-height: 1.7rem;
+}
+
+.definition {
+  p {
+    font-style: italic;
+    margin-left: 1em;
+  }
+}
+
+header {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  background-color: $primary-color;
+  min-height: 3rem;
+
+  .row {
+    max-width: 100%;
+  }
+
+  nav {
+    .title {
+      margin-left: 0rem;
+      font-size: 1.1em;
+    }
+
+    a {
+      font-size: 0.9em;
+      color: #fff;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      border: none;
+      line-height: 32px;
+
+      &:hover, &:focus {
+        color: #73A8C5;
+      }
+    }
+  }
+
+  .account {
+    float: right;
+  }
+}
+
+.hero {
+  background-color: $primary-color;
+  position: relative;
+  height: 25rem;
+  margin-top: -3em;
+
+  @media #{$tablet} {
+    height: 35rem;
+  }
+
+  .button {
+    margin-top: 2.5rem;
+  }
+
+  .hero-inner {
+    position: absolute;
+    padding: 0 1em;
+    height: 9em;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    margin: auto;
+    text-align: center;
+  }
+
+  h1 {
+    color: #addbbc;
+    text-align: center;
+    font-size: 2.1rem;
+    margin: 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "museo-sans",sans-serif;
+    letter-spacing: 0.1rem;
+
+    .version {
+      font-size: 0.7rem;
+      border: 1px solid;
+      padding: 0.4rem;
+      border-radius: 3px;
+      display: inline-block;
+      line-height: 1em;
+      position: relative;
+      top: -0.8em;
+    }
+
+    small {
+      color: rgba(173, 219, 188, 0.5);
+      display: block;
+      font-weight: normal;
+      font-size: 40%;
+      line-height: 1.5rem;
+      letter-spacing: 0.05rem;
+      text-transform: none;
+      font-family: "Helvetica Neue", sans-serif;
+    }
+  }
+}

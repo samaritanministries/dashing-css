@@ -1,0 +1,44 @@
+.button {
+  transition: color ease 0.3s, background-color ease 0.3s, border-color ease 0.3s;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.9em;
+  padding: 0.8em 1.4em;
+  letter-spacing: 0.04em;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid;
+  cursor: pointer;
+
+  &.large {
+    font-size: 1.05em;
+  }
+
+  &.block {
+    display: block;
+  }
+}
+
+.button {
+  color: #FFFFFF;
+  border-color: #60BF89;
+  background-color: #60BF89;
+
+  &:hover, &:focus {
+    color: #FFFFFF;
+    border-color: #85CEA4;
+    background-color: #85CEA4;
+  }
+}
+
+.button.secondary {
+  color: #999;
+  border-color: #CACACA;
+  background-color: #E6E7E8;
+
+  &:hover, &:focus {
+    background-color: #DBDBDB;
+    border-color: #ccc;
+  }
+}
