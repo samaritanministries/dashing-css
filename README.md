@@ -40,12 +40,60 @@ Using the built-in grid system of Framework.css is easy. To create rows, add the
 
 Full list of column sizes:
 
-- .full
-- .three-fourths
-- .two-thirds
-- .half
-- .third
-- .fourth
+- .full (100%)
+- .three-fourths (75%)
+- .two-thirds (66.6666666%)
+- .half (50%)
+- .third (33.3333333%)
+- .fourth (25%)
+
+####Using utility classes
+
+Sometimes you want to do something simple to an element, but you really don't want to change your stylesheet for it. We've created so easy, no-brainer utility "action classes" for you to use in your App, just to make your life easier. Just add one of these classes to an element, and you'll be good to go.
+
+``` CSS
+.hide {
+  display: none !important;
+}
+
+.fixed {
+  position: fixed !important;
+}
+
+.relative {
+  position: relative !important;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.float-none {
+  float: none !important;
+}
+
+.center-text {
+  text-align: center !important;
+}
+
+.remove-margin {
+  margin: 0 !important;
+}
+
+.remove-padding {
+  padding: 0 !important;
+}
+```
+
+For example, if you wanted to hide some header text, you would simply add the `.hide` class onto that element, and it will disappear from the page.
+
+``` HTML
+<h1 class="hide">Some header text</h1>
+```
 
 ###Getting Started with SASS
 
