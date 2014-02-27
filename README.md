@@ -6,12 +6,12 @@ Note - This build is a work in progress. It is probably going to change quite a 
 
 ###Install
 
-Installing this Platform tool is very simple. All you have to do is download Framework.css or Framework.scss (SASS) in order to get started. 
+Installing this Platform tool is very simple. All you have to do is download [Framework.css](www.github.com) or [Framework.scss (SASS)](www.github.com) in order to get started. 
 
 ###Getting Started
 ####Installing Framework.css
 
-1. Download Framework.css (it already has Normalize.css prepackaged with it)
+1. [Download Framework.css](www.github.com) (it already has [Normalize.css](http://necolas.github.io/normalize.css/) prepackaged with it)
 2. Include `<link href="framework.css" rel="stylesheet" />` in the `<head>` section of your App
 3. Start using it!
 
@@ -101,4 +101,4 @@ For example, if you wanted to hide some header text, you would simply add the `.
 
 ###Getting Started with SASS
 
-First, make you sure you have SASS installed on your machine. If you don't, go here to get started with SASS. 
+First, make you sure you have SASS installed on your machine. If you don't have it, [go here to get started with SASS](http://sass-lang.com/install).
