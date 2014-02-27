@@ -102,3 +102,9 @@ For example, if you wanted to hide some header text, you would simply add the `.
 ###Getting Started with SASS
 
 First, make you sure you have SASS installed on your machine. If you don't have it, [go here to get started with SASS](http://sass-lang.com/install).
+
+After SASS is installed, then run 
+
+``` shell
+sass -w framework.scss:framework.css 
+```
