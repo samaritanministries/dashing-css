@@ -6,7 +6,7 @@ Note - This build is a work in progress. It is probably going to change quite a 
 
 ###Install
 
-Installing this Platform tool is very simple. All you have to do is download [Framework.css](https://raw.github.com/samaritanministries/framework.css/master/framework.css) or [Framework.scss (SASS)](www.github.com) in order to get started. 
+Installing this Platform tool is very simple. All you have to do is download [Framework.css](https://raw.github.com/samaritanministries/framework.css/master/framework.css) or [Framework.scss (SASS)](https://github.com/samaritanministries/framework.css/tree/master/sass) in order to get started. 
 
 ###Getting Started
 ####Installing Framework.css
