@@ -99,12 +99,16 @@ For example, if you wanted to hide some header text, you would simply add the `.
 <h1 class="hide">Some header text</h1>
 ```
 
+#####...more documentation coming soon.
+
 ###Getting Started with SASS
 
 First, make you sure you have SASS installed on your machine. If you don't have it, [go here to get started with SASS](http://sass-lang.com/install).
 
-After SASS is installed, then run 
+After SASS is installed, run 
 
 ``` shell
 sass -w framework.scss:framework.css 
 ```
+
+#####...more documentation coming soon.
