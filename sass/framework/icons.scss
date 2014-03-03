@@ -1,0 +1,78 @@
+.icon {
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  margin: 0 auto;
+  background-size: 150% 150%;
+  height: 11rem;
+  width: 100%;
+
+  &.consistant {
+    background-image: url(../images/icons_consistant.svg);
+  }
+
+  &.designers {
+    background-image: url(../images/icons_designers.svg);
+  }
+
+  &.desktop-active {
+    background-image: url(../images/icons_desktop-active.svg);
+  }
+
+  &.desktop-default {
+    background-image: url(../images/icons_desktop-default.svg);
+  }
+
+  &.icon-do {
+    background-image: url(../images/icons_icon-do.svg);
+    margin-top: -2em;
+  }
+
+  &.icon-dont {
+    background-image: url(../images/icons_icon-dont.jpg);
+    background-size: 90%;
+    min-width: 267px;
+    max-width: 344px;
+    margin-top: -2em;
+  }
+
+  &.living {
+    background-image: url(../images/icons_living.svg);
+  }
+
+  &.mobile-active {
+    background-image: url(../images/icons_mobile-active.svg);
+  }
+
+  &.mobile-default {
+    background-image: url(../images/icons_mobile-default.svg);
+  }
+
+  &.nav-do {
+    background-image: url(../images/icons_nav-do.svg);
+  }
+
+  &.nav-dont {
+    background-image: url(../images/icons_nav-dont.svg);
+  }
+
+  &.responsible {
+    background-image: url(../images/icons_responsible.svg);
+  }
+
+  &.start {
+    background-image: url(../images/icons_start.svg);
+  }
+
+  &.tablet-active {
+    background-image: url(../images/icons_tablet-active.svg);
+  }
+
+  &.tablet-default {
+    background-image: url(../images/icons_tablet-default.svg);
+  }
+
+  &.transparent {
+    background-image: url(../images/icons_transparent.svg);
+  }
+}

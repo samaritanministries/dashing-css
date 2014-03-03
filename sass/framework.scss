@@ -1,6 +1,9 @@
-@import "normalize";
+@import "framework/normalize";
 
-@import "framework/_utilities";
-@import "framework/_grid";
-@import "framework/_core";
-@import "framework/_buttons";
+@import "framework/utilities";
+@import "framework/grid";
+
+@import "framework/colors";
+@import "framework/typography";
+@import "framework/core";
+@import "framework/buttons";
