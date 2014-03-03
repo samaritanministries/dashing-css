@@ -11,17 +11,12 @@ Installing this Platform tool is very simple. All you have to do is download [Fr
 ###Getting Started
 ####Installing Framework.css
 
-1. [Download Framework.css](https://raw.github.com/samaritanministries/framework.css/master/framework.css) (it already has [Normalize.css](http://necolas.github.io/normalize.css/) prepackaged with it)
-2. Include `<link href="framework.css" rel="stylesheet" />` in the `<head>` section of your App
-3. Start using it!
-
-####Enable responsiveness
-
-To enable responsive functionality, simply add 
+[Download Framework.css](https://raw.github.com/samaritanministries/framework.css/master/framework.css) (it already has [Normalize.css](http://necolas.github.io/normalize.css/) prepackaged with it), then include the following code in the `<head>` section of your App:
 ``` HTML
+<link href="framework.css" rel="stylesheet" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 ```
-in the `<head>` section of your App, after your stylesheet.
+All set! You're ready to rock.
 
 ####Creating a layout
 
