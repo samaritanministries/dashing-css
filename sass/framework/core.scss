@@ -1,13 +1,9 @@
-* {
-  transition: color ease 0.3s, border-color ease 0.3s;
-}
-
 header {
-  position: relative;
-  z-index: 10;
-  width: 100%;
   background-color: $primary-color;
   min-height: 3rem;
+  position: relative;
+  width: 100%;
+  z-index: 10;
 
   .row {
     max-width: 100%;
@@ -15,92 +11,110 @@ header {
 
   nav {
     .title {
+      font-size: 1.1rem;
       margin-left: 0rem;
-      font-size: 1.1em;
     }
 
     a {
-      font-size: 0.9em;
-      color: #fff;
-      text-decoration: none;
-      margin-left: 1.5rem;
       border: none;
-      line-height: 32px;
-
-      &:hover, &:focus {
-        color: #73A8C5;
-      }
+      color: #fff;
+      font-size: 0.9rem;
+      margin-left: 1.5rem;
+      text-decoration: none;
     }
   }
 
   .account {
     float: right;
   }
+
+  &.white {
+    background-color: #fff;
+
+    nav {
+      .title {
+        font-size: 1.1rem;
+        margin-left: 0rem;
+      }
+
+      a {
+        border: none;
+        color: $blue;
+        font-size: 0.9rem;
+        margin-left: 1.5rem;
+        text-decoration: none;
+
+        &:hover, &:focus {
+          color: $light-blue;
+        }
+      }
+    }
+  }
 }
 
 .hero {
   background-color: $primary-color;
-  position: relative;
   height: 25rem;
-  margin-top: -3em;
+  text-align: center;
+  display: table;
+  width: 100%;
 
   @media #{$tablet} {
     height: 35rem;
   }
 
-  .button {
-    margin-top: 2.5rem;
+  &.clear-header {
+    margin-top: -3rem;
   }
 
   .hero-inner {
-    position: absolute;
-    padding: 0 1em;
-    height: 11em;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: 2;
-    margin: auto;
-    text-align: center;
+    padding: 0 1rem;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .button {
+    margin-top: 2rem;
   }
 
   h1 {
-    color: #addbbc;
-    text-align: center;
+    color: $light-green;
+    font-family: $header-font;
     font-size: 2.1rem;
-    margin: 0;
     font-weight: 900;
-    text-transform: uppercase;
-    font-family: "museo-sans",sans-serif;
     letter-spacing: 0.1rem;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
 
     .version {
-      font-size: 0.7rem;
-      border: 1px solid;
-      padding: 0.4rem;
       border-radius: 3px;
+      border: 1px solid;
       display: inline-block;
-      line-height: 1em;
+      font-size: 0.7rem;
+      line-height: 1rem;
+      padding: 0.3rem;
       position: relative;
-      top: -0.8em;
+      top: -0.75em;
     }
 
     small {
-      color: rgba(173, 219, 188, 0.5);
+      opacity: 0.5;
+      color: $light-green;
       display: block;
+      font-family: $body-font;
+      font-size: 45%;
       font-weight: normal;
-      font-size: 40%;
-      line-height: 1.5rem;
       letter-spacing: 0.05rem;
+      line-height: 1.3rem;
       text-transform: none;
-      font-family: "Helvetica Neue", sans-serif;
+      margin-top: 0.4em;
     }
   }
 }
 
 footer {
-  background-color: #EEEFF0;
+  background-color: $gray;
   padding: 1rem 0;
 
   .copyright {
@@ -112,10 +126,10 @@ footer {
   }
 
   a {
-    font-size: 0.8rem;
     display: inline-block;
-    margin-top: 1em;
-    margin-right: 1em;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
 
     @media #{$tablet} {
       margin-left: 2rem;

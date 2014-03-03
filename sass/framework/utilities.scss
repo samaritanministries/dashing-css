@@ -1,5 +1,4 @@
 // Mixins
-
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
@@ -10,7 +9,6 @@
 
 
 // Extendables
-
 %clearfix:before,
 %clearfix:after {
   content: " ";
@@ -27,7 +25,6 @@
 
 
 // Action classes
-
 .hide {
   display: none !important;
 }

@@ -1,6 +1,3 @@
-$tablet: "all and (min-width: 40rem)" !default;
-$desktop: "all and (min-width: 64rem)" !default;
-
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -14,7 +11,7 @@ html { font-size: 100%; }
   margin: auto;
   padding: 0 1rem;
   width: 100%;
-  max-width: 1200px;
+  max-width: $global-content-width;
 }
 
 .column {

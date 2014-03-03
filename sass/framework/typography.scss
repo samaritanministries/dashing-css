@@ -1,17 +1,21 @@
+* {
+  transition: color ease 0.3s, border-color ease 0.3s;
+}
+
 body {
-  font-family: "source-sans-pro", sans-serif;
   color: $body-color;
+  font-family: $body-font;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "museo-sans", sans-serif;
+  color: $primary-color;
+  font-family: $header-font;
+  font-weight: 500;
   letter-spacing: 0.05em;
   margin-bottom: 0;
-  color: $primary-color;
-  font-weight: 500;
 
   small {
-    color: #999;
+    color: $dark-gray;
     display: block;
     font-size: 60%;
     font-weight: normal;
@@ -24,8 +28,8 @@ h1 {
   text-transform: uppercase;
 
   small {
+    font-family: $body-font;
     text-transform: none;
-    font-family: "source-sans-pro", sans-serif;
   }
 }
 
@@ -38,14 +42,14 @@ h4 {
 }
 
 a {
-  text-decoration: none;
-  outline: none;
-  color: $body-color;
   border-bottom: 1px solid $border-color;
+  color: $body-color;
+  outline: none;
+  text-decoration: none;
 
   &:hover, &:focus {
-    color: #7FABDD;
-    border-color: #7FABDD;
+    border-color: $light-blue;
+    color: $light-blue;
   }
 }
 
