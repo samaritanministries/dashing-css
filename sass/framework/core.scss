@@ -1,4 +1,8 @@
+/* Header
+  ================================================== */
+
 header {
+  @extend %clearfix;
   background-color: $primary-color;
   min-height: 3rem;
   position: relative;
@@ -21,11 +25,20 @@ header {
       font-size: 0.9rem;
       margin-left: 1.5rem;
       text-decoration: none;
+
+      &:hover, &:focus {
+        color: #fff;
+        opacity: 0.5;
+      }
     }
   }
 
   .account {
     float: right;
+  }
+
+  .rotate {
+    @extend .rotate-180;
   }
 
   &.white {
@@ -51,6 +64,9 @@ header {
     }
   }
 }
+
+/* Hero
+  ================================================== */
 
 .hero {
   background-color: $primary-color;
@@ -78,40 +94,23 @@ header {
   }
 
   h1 {
+    @extend h1.special;
     color: $light-green;
-    font-family: $header-font;
     font-size: 2.1rem;
-    font-weight: 900;
-    letter-spacing: 0.1rem;
     margin: 0;
     text-align: center;
-    text-transform: uppercase;
-
-    .version {
-      border-radius: 3px;
-      border: 1px solid;
-      display: inline-block;
-      font-size: 0.7rem;
-      line-height: 1rem;
-      padding: 0.3rem;
-      position: relative;
-      top: -0.75em;
-    }
 
     small {
       opacity: 0.5;
       color: $light-green;
-      display: block;
-      font-family: $body-font;
       font-size: 45%;
-      font-weight: normal;
-      letter-spacing: 0.05rem;
-      line-height: 1.3rem;
-      text-transform: none;
-      margin-top: 0.4em;
+
     }
   }
 }
+
+/* Footer
+  ================================================== */
 
 footer {
   background-color: $gray;
@@ -132,6 +131,7 @@ footer {
     margin-top: 1rem;
 
     @media #{$tablet} {
+      margin: 0;
       margin-left: 2rem;
     }
   }

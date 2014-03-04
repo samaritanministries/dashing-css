@@ -1,23 +1,43 @@
-// Colors
-$green:         #60BF85;
-$light-green:   #A0D5BA;
-$blue:          #2B4051;
-$light-blue:    #899FBC;
-$gray:          #EEEFF0;
-$dark-gray:     #999999;
+// Framework.css configuration options
 
-$primary-color: $blue;
-$border-color:  #555555;
-$body-color:    #555555;
+/* Colors
+  ================================================== */
+
+  $green:         #60BF85;
+  $light-green:   #A0D5BA;
+  $blue:          #2B4051;
+  $light-blue:    #899FBC;
+  $gray:          #EEEFF0;
+  $dark-gray:     #999999;
+
+  $primary-color: $blue;
+  $border-color:  #555555;
+  $body-color:    #555555;
+
+  // Primary button color
+  $primary-button:                $green;
+  $primary-button-border:         $green;
+  $primary-button-hover:          lighten($green, 10%);
+  $primary-button-border-hover:   lighten($green, 10%);
+
+  // Secondary button color
+  $secondary-button:              $gray;
+  $secondary-button-border:       darken($gray, 5%);
+  $secondary-button-hover:        darken($gray, 5%);
+  $secondary-button-border-hover: darken($gray, 5%);
 
 
-// Fonts
-$header-font: "museo-sans", sans-serif;
-$body-font: "source-sans-pro", sans-serif;
+/* Fonts
+  ================================================== */
+
+  $header-font: "museo-sans", sans-serif;
+  $body-font: "source-sans-pro", sans-serif;
 
 
-// Grid breakpoints
-$tablet: "all and (min-width: 40rem)" !default;
-$desktop: "all and (min-width: 64rem)" !default;
+/* Grid
+  ================================================== */
 
-$global-content-width: 1200px;
+  $global-content-width: 1200px;
+
+  $tablet: "all and (min-width: 40rem)" !default;
+  $desktop: "all and (min-width: 64rem)" !default;

@@ -1,8 +1,14 @@
+/* Reset all box styles
+  ================================================== */
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+/* Mobile grid
+  ================================================== */
 
 html { font-size: 100%; }
 
@@ -22,6 +28,9 @@ html { font-size: 100%; }
     width: 100%;
   }
 }
+
+/* Tablet grid
+  ================================================== */
 
 @media #{$tablet} {
   html { font-size: 110%; }
@@ -64,6 +73,9 @@ html { font-size: 100%; }
     }
   }
 }
+
+/* Desktop grid
+  ================================================== */
 
 @media #{$desktop} {
   html { font-size: 120%; }

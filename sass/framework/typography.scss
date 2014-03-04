@@ -1,11 +1,13 @@
-* {
-  transition: color ease 0.3s, border-color ease 0.3s;
-}
+/* Default styles
+  ================================================== */
 
 body {
   color: $body-color;
   font-family: $body-font;
 }
+
+/* Headers
+  ================================================== */
 
 h1, h2, h3, h4, h5, h6 {
   color: $primary-color;
@@ -17,15 +19,17 @@ h1, h2, h3, h4, h5, h6 {
   small {
     color: $dark-gray;
     display: block;
+    font-family: $body-font;
     font-size: 60%;
     font-weight: normal;
     line-height: 1.5rem;
   }
 }
 
-h1 {
+h1.special {
   font-weight: 900;
   text-transform: uppercase;
+  letter-spacing: 0.1rem;
 
   small {
     font-family: $body-font;
@@ -41,6 +45,9 @@ h4 {
   color: $body-color;
 }
 
+/* Links
+  ================================================== */
+
 a {
   border-bottom: 1px solid $border-color;
   color: $body-color;
@@ -53,6 +60,9 @@ a {
   }
 }
 
+/* Paragraph
+  ================================================== */
+
 p {
   line-height: 1.7rem;
 }
@@ -62,4 +72,15 @@ p {
     font-style: italic;
     margin-left: 1em;
   }
+}
+
+.version {
+  border-radius: 3px;
+  border: 1px solid;
+  display: inline-block;
+  font-size: 0.7rem;
+  line-height: 1rem;
+  padding: 0.3rem;
+  position: relative;
+  top: -0.75em;
 }
