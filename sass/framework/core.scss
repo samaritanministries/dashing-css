@@ -14,6 +14,8 @@ header {
   }
 
   nav {
+    font-size: 0.9rem;
+
     .title {
       font-size: 1.1rem;
       margin-left: 0rem;
@@ -105,34 +107,6 @@ header {
       color: $light-green;
       font-size: 45%;
 
-    }
-  }
-}
-
-/* Footer
-  ================================================== */
-
-footer {
-  background-color: $gray;
-  padding: 1rem 0;
-
-  .copyright {
-    font-size: 0.8rem;
-
-    @media #{$tablet} {
-      display: inline-block;
-    }
-  }
-
-  a {
-    display: inline-block;
-    font-size: 0.8rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-
-    @media #{$tablet} {
-      margin: 0;
-      margin-left: 2rem;
     }
   }
 }
