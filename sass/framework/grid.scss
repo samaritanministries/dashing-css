@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-/* Mobile grid
+/* Mobile grid (default)
   ================================================== */
 
 html { font-size: 100%; }
@@ -33,7 +33,7 @@ html { font-size: 100%; }
   ================================================== */
 
 @media #{$tablet} {
-  html { font-size: 110%; }
+  html { font-size: 105%; }
 
   .column {
     float: left;
@@ -78,5 +78,5 @@ html { font-size: 100%; }
   ================================================== */
 
 @media #{$desktop} {
-  html { font-size: 120%; }
+  html { font-size: 110%; }
 }
