@@ -15,7 +15,6 @@ html { font-size: 100%; }
 .row {
   @extend %clearfix;
   margin: auto;
-  padding: 0 1rem;
   width: 100%;
   max-width: $global-content-width;
 }
