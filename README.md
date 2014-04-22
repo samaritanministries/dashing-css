@@ -1,26 +1,26 @@
-##Framework.css
+##Dashing.css
 
 ```
-Note - This build is a work in progress. It is probably going to change quite a bit until we have put together a full release candidate. 
+Note - This build is a work in progress. It is probably going to change quite a bit until we have put together a full release candidate.
 ```
 
 ###Install
 
-Installing this Platform tool is very simple. All you have to do is download [Framework.css](https://raw.github.com/samaritanministries/framework.css/master/framework.css) or [Framework.scss (SASS)](https://github.com/samaritanministries/framework.css/tree/master/sass) in order to get started. 
+Installing this Platform tool is very simple. All you have to do is download [Dashing.css](https://raw.github.com/samaritanministries/dashing.css/master/dashing.css) or [Dashing.scss (SASS)](https://github.com/samaritanministries/dashing.css/tree/master/sass) in order to get started.
 
 ###Getting Started
-####Installing Framework.css
+####Installing Dashing.css
 
-[Download Framework.css](https://raw.github.com/samaritanministries/framework.css/master/framework.css) (it already has [Normalize.css v3.0](http://necolas.github.io/normalize.css/) prepackaged with it), then include the following code in the `<head>` section of your App:
+[Download Dashing.css](https://raw.github.com/samaritanministries/dashing.css/master/dashing.css) (it already has [Normalize.css v3.0](http://necolas.github.io/normalize.css/) prepackaged with it), then include the following code in the `<head>` section of your App:
 ``` HTML
-<link href="framework.css" rel="stylesheet" />
+<link href="dashing.css" rel="stylesheet" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 ```
 All set! You're ready to rock.
 
 ####Creating a layout
 
-Using the built-in grid system of Framework.css is easy. To create rows, add the `.row` class to an element you are targeting. By default, these rows have a `max-width` of 1200px. Within rows, you can create columns, in order to achieve a more complex layout. Add the class ".column" followed by a size class (example: ".third"), and you'll have a grid!
+Using the built-in grid system of Dashing.css is easy. To create rows, add the `.row` class to an element you are targeting. By default, these rows have a `max-width` of 1200px. Within rows, you can create columns, in order to achieve a more complex layout. Add the class ".column" followed by a size class (example: ".third"), and you'll have a grid!
 
 ``` HTML
 
@@ -35,7 +35,7 @@ Using the built-in grid system of Framework.css is easy. To create rows, add the
        Hello there, I'm in a third!
    </div>
 </div>
-``` 
+```
 
 Full list of column sizes:
 
@@ -100,10 +100,10 @@ For example, if you wanted to hide some header text, you would simply add the `.
 
 First, make you sure you have SASS installed on your machine. If you don't have it, [go here to get started with SASS](http://sass-lang.com/install).
 
-After SASS is installed, run 
+After SASS is installed, run
 
 ``` shell
-sass -w framework.scss:framework.css 
+sass -w dashing.scss:dashing.css
 ```
 
 #####...more documentation coming soon.
