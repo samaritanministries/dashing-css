@@ -1,0 +1,41 @@
+textarea, input[type="text"], input[type="password"], input[type="email"], input[type="tel"] {
+  @include border-radius(3px);
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: #FCFCFC;
+  border: 1px solid $border-color;
+  color: #000000;
+  font-family: $body-font;
+  font-weight: normal;
+  max-width: 100%;
+  outline: none;
+  padding: 0.6em;
+  width: 100%;
+
+  &:focus {
+    border-color: $primary-color;
+  }
+
+  &.error {
+    border: 1px solid $red;
+  }
+}
+
+textarea {
+  overflow: auto;
+}
+
+label {
+  @extend %clearfix;
+  color: #999;
+  display: block;
+  font-size: 0.9em;
+  font-weight: normal;
+  margin-bottom: 0.4em;
+
+  &.error {
+    color: $red;
+    margin: 0.5em 0 0 0;
+  }
+}

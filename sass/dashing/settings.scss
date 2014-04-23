@@ -16,7 +16,7 @@
   $red:           #dd4b39;
   $purple:        #754c82;
 
-  $primary-color: $purple;
+  $primary-color: $light-blue;
 
   $border-color:  #555555;
   $body-color:    #555555;
@@ -44,7 +44,14 @@
 /* Grid
   ================================================== */
 
-  $global-content-width: 1000px;
+  $global-content-width: 1200px;
 
   $tablet: "all and (min-width: 40rem)" !default;
   $desktop: "all and (min-width: 64rem)" !default;
+
+// MISC
+
+$phone: "all and (max-width: 500px)" !default;
+$border-color:  #ddd;
+$body-gray:     #606060;
+$blue:          #4684a6;
