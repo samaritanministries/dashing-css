@@ -1,24 +1,13 @@
-/* Default styles
-  ================================================== */
-
-body {
-  color: $body-color;
-  font-family: $body-font;
-}
-
 /* Headers
   ================================================== */
 
 h1, h2, h3, h4, h5, h6 {
-  color: $primary-color;
-  font-family: $header-font;
   font-weight: 500;
   margin-bottom: 0;
 
   small {
     color: $dark-gray;
     display: block;
-    font-family: $body-font;
     font-size: 60%;
     font-weight: normal;
     line-height: 1.5rem;
@@ -35,7 +24,6 @@ h1.special {
   letter-spacing: 0.1rem;
 
   small {
-    font-family: $body-font;
     text-transform: none;
   }
 }
@@ -44,9 +32,6 @@ h2 {
   font-size: 1.5rem;
 }
 
-h4 {
-  color: $body-color;
-}
 
 /* Links
   ================================================== */

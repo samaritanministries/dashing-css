@@ -9,7 +9,7 @@
   font-size: 0.9rem;
   letter-spacing: 0.04rem;
   outline: none;
-  padding: 0.6rem 1.2rem;
+  padding: 0.8rem 1.4rem;
   text-align: center;
   text-decoration: none;
 
@@ -22,34 +22,3 @@
   }
 }
 
-/* Primary button
-  ================================================== */
-
-.button, button, input[type="submit"], input[type="reset"] {
-  background-color: $primary-button;
-  border-color: $primary-button-border;
-  color: #FFFFFF;
-
-  &:hover, &:focus {
-    background-color: $primary-button-hover;
-    border-color: $primary-button-border-hover;
-    color: #FFFFFF;
-  }
-}
-
-/* Secondary button
-  ================================================== */
-
-.button, button, input[type="submit"], input[type="reset"] {
-  &.secondary {
-    background-color: $secondary-button;
-    border-color: $secondary-button-border;
-    color: $dark-gray;
-
-    &:hover, &:focus {
-      background-color: $secondary-button-hover;
-      border-color: $secondary-button-border-hover;
-      color: $dark-gray;
-    }
-  }
-}
