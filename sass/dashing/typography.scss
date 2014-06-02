@@ -3,10 +3,9 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
-  margin-bottom: 0;
+  margin-bottom: 0.25rem;
 
   small {
-    color: $dark-gray;
     display: block;
     font-size: 60%;
     font-weight: normal;
@@ -28,24 +27,18 @@ h1.special {
   }
 }
 
-h2 {
-  font-size: 1.5rem;
-}
 
+h1 { font-size: $xlarge }
+h2 { font-size: $large; }
+h3 { font-size: $medium; }
+h4 { font-size: $body; }
 
 /* Links
   ================================================== */
 
 a {
-  border-bottom: 1px solid $body-color;
-  color: $body-color;
   outline: none;
   text-decoration: none;
-
-  &:hover, &:focus {
-    border-color: $light-blue;
-    color: $light-blue;
-  }
 }
 
 /* Paragraph

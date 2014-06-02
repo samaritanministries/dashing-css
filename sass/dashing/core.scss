@@ -3,7 +3,6 @@
 
 header {
   @extend %clearfix;
-  background-color: $primary-color;
   min-height: 3rem;
   position: relative;
   width: 100%;
@@ -54,14 +53,10 @@ header {
 
       a {
         border: none;
-        color: $blue;
         font-size: 0.9rem;
         margin-left: 1.5rem;
         text-decoration: none;
 
-        &:hover, &:focus {
-          color: $light-blue;
-        }
       }
     }
   }
@@ -71,7 +66,6 @@ header {
   ================================================== */
 
 .hero {
-  background-color: $primary-color;
   height: 25rem;
   text-align: center;
   display: table;
@@ -97,14 +91,12 @@ header {
 
   h1 {
     @extend h1.special;
-    color: $light-green;
     font-size: 2.1rem;
     margin: 0;
     text-align: center;
 
     small {
       opacity: 0.5;
-      color: $light-green;
       font-size: 45%;
 
     }
