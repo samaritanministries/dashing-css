@@ -1,9 +1,9 @@
 {
   "name": "dashing-css",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "http://developers.samaritanministries.org/",
   "authors": [
-    "Chris Peak <chris@8thlight.com">,
+    "Chris Peak <chris@8thlight.com>",
     "Chandler Roth <chandler.roth@samaritanministries.org>",
     "Jared Rauh <jared.rauh@samaritanministries.org>"
   ],
