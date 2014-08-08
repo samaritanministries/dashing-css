@@ -9,6 +9,12 @@
   border-radius: $radius;
 }
 
+@mixin box-shadow($value) {
+  -webkit-box-shadow: $value;
+  -moz-box-shadow: $value;
+  box-shadow: $value;
+}
+
 @mixin user-select($value) {
   -webkit-user-select: $value;
   -moz-user-select: $value;
@@ -16,7 +22,6 @@
   -o-user-select: $value;
   user-select: $value;
 }
-
 
 /* Extendables
   ================================================== */
@@ -81,4 +86,12 @@
 
 .selectable {
   cursor: pointer !important;
+}
+
+.break-word {
+  word-wrap: break-word;
+}
+
+.no-wrap {
+  white-space: nowrap;
 }
