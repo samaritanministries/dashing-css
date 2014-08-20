@@ -11,7 +11,7 @@ Installing this Platform tool is very simple. All you have to do is download [Da
 ###Getting Started
 ####Installing Dashing.css
 
-[Download Dashing.css](https://raw.github.com/samaritanministries/dashing.css/master/dashing.css) (it already has [Normalize.css v3.0](http://necolas.github.io/normalize.css/) prepackaged with it), then include the following code in the `<head>` section of your App:
+[Download Dashing.css](https://raw.github.com/samaritanministries/dashing.css/master/dashing.css) (it already has [Normalize.css v3.0.1](http://necolas.github.io/normalize.css/) prepackaged with it), then include the following code in the `<head>` section of your App:
 ``` HTML
 <link href="dashing.css" rel="stylesheet" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
