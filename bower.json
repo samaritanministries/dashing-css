@@ -1,18 +1,15 @@
 {
   "name": "dashing-css",
-  "version": "0.0.4",
+  "version": "0.0.5",
+  "main": [
+    "sass/dashing.scss",
+    "css/dashing.css"
+  ],
+
   "homepage": "http://developers.samaritanministries.org/",
-  "authors": [
-    "Chris Peak <chris@8thlight.com>",
-    "Chandler Roth <chandler.roth@samaritanministries.org>",
-    "Jared Rauh <jared.rauh@samaritanministries.org>"
-  ],
-  "description": "Styles for Samaritan Ministries' Dashing framework.",
-  "main": "dashing.css",
+  "description": "Create beautiful applications on Dash using Dashing.css",
+
   "license": "MIT",
-  "keywords": [
-    "samaritan"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/samaritanministries/dashing-css"
