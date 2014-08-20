@@ -1,15 +1,15 @@
-/*! dashing.css v0.0.2 | MIT License | git.io/QoS4vA */
+/*! dashing.css v0.0.5 - goo.gl/Unphh9 | MIT License */
 
-// Setup normalize.css
-@import "dashing/normalize";
+// Setup Normalize
+  @import "normalize";
 
 // Add in base components
-@import "dashing/settings";
-@import "dashing/utilities";
-@import "dashing/grid";
+  @import "dashing/settings";
+  @import "dashing/utilities";
+  @import "dashing/grid";
 
 // Build out default styles
-@import "dashing/animations";
-@import "dashing/typography";
-@import "dashing/buttons";
-@import "dashing/core";
+  @import "dashing/animations";
+  @import "dashing/typography";
+  @import "dashing/buttons";
+  @import "dashing/core";
