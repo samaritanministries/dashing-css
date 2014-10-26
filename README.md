@@ -103,7 +103,7 @@ First, make you sure you have SASS installed on your machine. If you don't have 
 After SASS is installed, run
 
 ``` shell
-sass -w dashing.scss:dashing.css
+sass -w sass/dashing.scss:dashing.css --style compressed
 ```
 
 #####...more documentation coming soon.
