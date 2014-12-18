@@ -12,9 +12,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5rem;
   }
 
-  &.centered {
-    text-align: center;
-  }
+  &.centered { text-align: center; }
 }
 
 h1.special {
@@ -22,9 +20,7 @@ h1.special {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
 
-  small {
-    text-transform: none;
-  }
+  small { text-transform: none; }
 }
 
 h1 { font-size: $xlarge }
@@ -45,9 +41,7 @@ a {
 /* Paragraph
   ================================================== */
 
-p {
-  line-height: 1.7rem;
-}
+p { line-height: 1.7rem; }
 
 .definition {
   font-style: italic;

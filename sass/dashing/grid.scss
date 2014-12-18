@@ -1,7 +1,9 @@
 /* Reset all box styles
   ================================================== */
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -23,7 +25,17 @@ html { font-size: 100%; }
   @extend %clearfix;
   padding: 1rem;
 
-  &.half, &.third, &.fourth, &.two-thirds, &.full, &.three-fourths {
+  /* Removes extra padding when nesting columns */
+  &.group { padding: 0; }
+
+  &.full,
+  &.two-thirds,
+  &.three-fourths,
+  &.half,
+  &.third,
+  &.fourth,
+  &.sixths,
+  &.eighths {
     width: 100%;
   }
 }
@@ -42,29 +54,15 @@ html { font-size: 100%; }
       width: 100%;
     }
 
-    &.two-thirds {
-      width: 66.66666666%;
-    }
+    &.two-thirds { width: 66.666%; }
+    &.three-fourths { width: 75%; }
+    &.half { width: 50%; }
+    &.third { width: 33.333%; }
+    &.fourth { width: 25%; }
+    &.sixths { width: 16.666%; }
+    &.eighths { width: 12.5%; }
 
-    &.three-fourths {
-      width: 75%;
-    }
-
-    &.half {
-      width: 50%;
-    }
-
-    &.third {
-      width: 33.33333333%;
-    }
-
-    &.fourth {
-      width: 25%;
-    }
-
-    &.flow-opposite {
-      float: right;
-    }
+    &.flow-opposite { float: right;}
 
     &.center {
       float: none;

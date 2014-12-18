@@ -8,9 +8,7 @@ header {
   width: 100%;
   z-index: 10;
 
-  .row {
-    max-width: 100%;
-  }
+  .row { max-width: 100%; }
 
   nav {
     font-size: 0.9rem;
@@ -34,13 +32,8 @@ header {
     }
   }
 
-  .account {
-    float: right;
-  }
-
-  .rotate {
-    @extend .rotate-180;
-  }
+  .account { float: right; }
+  .rotate { @extend .rotate-180; }
 
   &.white {
     background-color: #fff;
@@ -75,9 +68,7 @@ header {
     height: 35rem;
   }
 
-  &.clear-header {
-    margin-top: -3rem;
-  }
+  &.clear-header { margin-top: -3rem; }
 
   .hero-inner {
     padding: 0 1rem;
@@ -85,9 +76,7 @@ header {
     vertical-align: middle;
   }
 
-  .button {
-    margin-top: 2rem;
-  }
+  .button { margin-top: 2rem; }
 
   h1 {
     @extend h1.special;
@@ -98,7 +87,6 @@ header {
     small {
       opacity: 0.5;
       font-size: 45%;
-
     }
   }
 }

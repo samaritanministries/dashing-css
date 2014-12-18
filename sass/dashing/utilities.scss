@@ -15,6 +15,13 @@
   box-shadow: $value;
 }
 
+@mixin transition($value) {
+  -moz-transition: $value;
+  -o-transition: $value;
+  -webkit-transition: $value;
+  transition: $value;
+}
+
 @mixin user-select($value) {
   -webkit-user-select: $value;
   -moz-user-select: $value;
@@ -44,54 +51,16 @@
 /* Action classes
   ================================================== */
 
-.hide {
-  display: none !important;
-}
-
-.fixed {
-  position: fixed !important;
-}
-
-.relative {
-  position: relative !important;
-}
-
-.float-left {
-  float: left !important;
-}
-
-.float-right {
-  float: right !important;
-}
-
-.float-none {
-  float: none !important;
-}
-
-.center-text {
-  text-align: center !important;
-}
-
-.remove-margin {
-  margin: 0 !important;
-}
-
-.remove-padding {
-  padding: 0 !important;
-}
-
-.remove-border {
-  border: none !important;
-}
-
-.selectable {
-  cursor: pointer !important;
-}
-
-.break-word {
-  word-wrap: break-word;
-}
-
-.no-wrap {
-  white-space: nowrap;
-}
+.hide { display: none !important; }
+.fixed { position: fixed !important; }
+.relative { position: relative !important; }
+.float-left { float: left !important; }
+.float-right { float: right !important; }
+.float-none { float: none !important; }
+.center-text { text-align: center !important; }
+.remove-margin { margin: 0 !important; }
+.remove-padding { padding: 0 !important; }
+.remove-border { border: none !important; }
+.selectable { cursor: pointer !important; }
+.break-word { word-wrap: break-word; }
+.no-wrap { white-space: nowrap; }

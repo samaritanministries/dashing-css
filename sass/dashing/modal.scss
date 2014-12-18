@@ -1,0 +1,94 @@
+/* Modal
+================================================== */
+
+.modal-open { overflow: hidden; }
+
+.modal {
+  -webkit-overflow-scrolling: touch;
+  background: rgba(31, 31, 35, .85);
+  bottom: 0;
+  left: 0;
+  outline: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1050;
+
+  .modal-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+  }
+
+  .modal-dialog {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .modal-inner {
+    @extend %clearfix;
+    background-clip: padding-box;
+    background-color: $white;
+    border-radius: 15px;
+    margin: 1rem;
+    outline: 0;
+    padding: 2.5rem;
+    position: relative;
+    width: auto;
+
+    hr {
+      border: 0;
+      border-top: 1px solid $border-color;
+      margin: 1.5rem 0;
+    }
+
+    @media #{$tablet} {
+      margin: 1.5rem auto;
+      width: 35rem;
+    }
+  }
+
+  &.narrow {
+    @media #{$tablet} {
+      .modal-inner { width: 26rem; }
+    }
+  }
+}
+
+.modal-title {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.modal-row { margin-bottom: 1.5em; }
+
+/* Modal Close Button
+================================================== */
+
+b.close {
+  color: #ccc;
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 0;
+  position: absolute;
+  right: 1rem;
+  top: 1.4rem;
+
+  &:hover { color: $black; }
+}
+
+/* Fade Transition
+================================================== */
+
+.fade {
+  opacity: 0;
+  -moz-transition: opacity .15s linear;
+  -o-transition: opacity .15s linear;
+  -webkit-transition: opacity .15s linear;
+  transition: opacity .15s linear;
+
+  &.in { opacity: 1; }
+}

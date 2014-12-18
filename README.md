@@ -6,12 +6,13 @@ Note - This build is a work in progress. It is probably going to change quite a 
 
 ###Install
 
-Installing this Platform tool is very simple. All you have to do is download [Dashing.css](https://raw.github.com/samaritanministries/dashing.css/master/dashing.css) or [Dashing.scss (SASS)](https://github.com/samaritanministries/dashing.css/tree/master/sass) in order to get started.
+Installing this Platform tool is very simple. All you have to do is download [Dashing.css](https://raw.github.com/samaritanministries/dashing-css/master/dashing.css) or [Dashing.scss (SASS)](https://github.com/samaritanministries/dashing-css/tree/master/sass) in order to get started.
 
 ###Getting Started
 ####Installing Dashing.css
 
-[Download Dashing.css](https://raw.github.com/samaritanministries/dashing.css/master/dashing.css) (it already has [Normalize.css v3.0.1](http://necolas.github.io/normalize.css/) prepackaged with it), then include the following code in the `<head>` section of your App:
+[Download Dashing.css](https://raw.github.com/samaritanministries/dashing-css/master/dashing.css) (it already has [Normalize.css v3.0.1](http://necolas.github.io/normalize.css/) prepackaged with it), then include the following code in the `<head>` section of your App:
+
 ``` HTML
 <link href="dashing.css" rel="stylesheet" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -103,7 +104,7 @@ First, make you sure you have SASS installed on your machine. If you don't have 
 After SASS is installed, run
 
 ``` shell
-sass -w dashing.scss:dashing.css
+sass -w sass/dashing.scss:dashing.css --style compressed
 ```
 
 #####...more documentation coming soon.
