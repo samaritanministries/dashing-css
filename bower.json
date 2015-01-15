@@ -5,6 +5,7 @@
   "main": [
     "sass/dashing.scss",
     "css/dashing.css"
+  ]
 
   "authors": [
     "Chris Peak <chris@8thlight.com>",
