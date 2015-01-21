@@ -1,6 +1,6 @@
 {
   "name": "dashing-css",
-  "version": "0.0.6",
+  "version": "0.0.7",
 
   "main": [
     "sass/dashing.scss",

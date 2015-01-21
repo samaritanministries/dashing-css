@@ -4,6 +4,16 @@
 Note - This build is a work in progress. It is probably going to change quite a bit until we have put together a full release candidate.
 ```
 
+###Upadating for Development
+1. Make changes (make sure bower.json and dashing.scss has the right version number you want)
+2. Compile sass into distributable css: sass ./sass/dashing.scss ./css/dashing.css --style compressed
+3. Make a commit with your changes: git commit -m "Version <your version>"
+4. Make a tag: git tag "v<your version>"
+5. git push
+6. git push --tags
+
+
+
 ###Install
 
 Installing this Platform tool is very simple. All you have to do is download [Dashing.css](https://raw.github.com/samaritanministries/dashing-css/master/dashing.css) or [Dashing.scss (SASS)](https://github.com/samaritanministries/dashing-css/tree/master/sass) in order to get started.
